@@ -1,0 +1,11 @@
+{
+  "name": "cscore_component",
+  "version": "1.0.0",
+  "description": "cac component co ban cua du an",
+  "main": "src/index",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hoang Minh Quan",
+  "license": "MIT"
+}
