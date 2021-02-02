@@ -1,6 +1,6 @@
 {
   "name": "cscore_component",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "cac component co ban cua du an",
   "main": "src/index",
   "scripts": {
