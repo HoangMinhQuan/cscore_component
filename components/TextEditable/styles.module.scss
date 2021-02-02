@@ -1,0 +1,76 @@
+/* 
+ *  
+ *  Copyright (c) 2019-present Goldbell Financial Services Pte Ltd.
+ *  
+ */
+
+.label {
+  // font-family: WorkSans;
+  font-size: 14px;
+  letter-spacing: normal;
+  margin: 5px 0px;
+  padding: 0;
+  line-height: 1;
+  display: block;
+  // opacity: .5;
+  color: #a5a5a5;
+}
+
+.input {
+  transition: none !important;
+  font-size: 16px;
+  &::-webkit-inner-spin-button,
+  &::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+}
+
+.disabled {
+  border: none !important;
+  display: inline;
+  background-color: #fff !important;
+  color: #000 !important;
+  padding: 0;
+  cursor: text !important;
+}
+
+.inputWrap {
+  position: relative;
+}
+
+.prefixLeft {
+  position: absolute;
+  left: 0;
+  padding: 2px 5px;
+  font-size: 16px;
+  top: 3px;
+  z-index: 300;
+  bottom: 3px;
+  color: #000;
+  border-right: 1px solid #eee;
+}
+
+.editable {
+  .input {
+    font-size: 14px;
+  }
+  .prefixLeft {
+    font-size: 14px;
+    color: #555;
+  }
+}
+
+.inline {
+  display: flex;
+  justify-content: space-between;
+}
+
+.relative {
+  position: relative;
+}
+.extendButtonWrap {
+  position: absolute;
+  left: calc(100% + 10px);
+  top: 5px;
+}

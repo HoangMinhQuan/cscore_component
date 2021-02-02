@@ -1,0 +1,127 @@
+.button {
+  &:disabled {
+    cursor: not-allowed !important;
+  }
+}
+
+.primary {
+  cursor: pointer !important;
+  background-color: #20a8d8 !important;
+  color: white !important;
+  font-weight: 600 !important;
+  border: none !important;
+
+  &:hover {
+    color: #20a8d8 !important;
+    background-color: #20a8d81a !important; 
+  }
+
+  &:focus, &:active {
+    color: white !important;
+    background-color: #20a8d8 !important;
+  }
+}
+
+.submit {
+  cursor: pointer !important;
+  background-color: #20a8d8 !important;
+  color: white !important;
+  font-weight: 600 !important;
+  border: none !important;
+
+  &:hover {
+    color: #20a8d8 !important;
+    background-color: #20a8d81a !important;
+  }
+
+  &:focus, &:active {
+    color: white !important;
+    background-color: #20a8d8 !important;
+  }
+}
+
+.cancel {
+  cursor: pointer !important;
+  background-color: #ced2d8 !important;
+  color: #4f5d73 !important;
+  border: none !important;
+
+  &:hover {
+    color: #4f5d73 !important;
+    background-color: #b9bec7 !important;
+  }
+
+  &:focus, &:active {
+    color: white !important;
+    background-color: #4f5d73 !important;
+  }
+}
+
+.warning {
+  cursor: pointer !important;
+  background-color: #ffc107 !important;
+  color: white !important;
+  border: none !important;
+
+  &:hover {
+    color: #ffc107 !important;
+    background-color: #ffc1071a !important;
+  }
+
+  &:focus, &:active {
+    color: white !important;
+    background-color: #ffc107 !important;
+  }
+}
+
+.excel {
+  cursor: pointer !important;
+  background-color: #049c51 !important;
+  color: white !important;
+  font-weight: 600 !important;
+  border: none !important;
+
+  &:hover {
+    color: #049c51 !important;
+    background-color: #20a8d81a !important; 
+  }
+
+  &:focus, &:active {
+    color: white !important;
+    background-color: #049c51 !important;
+  }
+}
+.pdf {
+  cursor: pointer !important;
+  background-color: #cc3d33 !important;
+  color: white !important;
+  font-weight: 600 !important;
+  border: none !important;
+
+  &:hover {
+    color: #cc3d33 !important;
+    background-color: #20a8d81a !important; 
+  }
+
+  &:focus, &:active {
+    color: white !important;
+    background-color: #cc3d33 !important;
+  }
+}
+  .outline {
+    cursor: pointer !important;
+    background-color: #20a8d8 !important;
+    color: white !important;
+    font-weight: 600 !important;
+    border: none !important;
+  
+    &:hover {
+      color: #20a8d8 !important;
+      background-color: #20a8d81a !important; 
+    }
+  
+    &:focus, &:active {
+      color: white !important;
+      background-color: #20a8d8 !important;
+    }
+  }
