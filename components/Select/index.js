@@ -1,10 +1,10 @@
-import React from "react";
+import React from 'react';
 import cx from "clsx";
 import styles from "./select.module.scss";
 import { Select, Form } from "antd";
 import ViewField from "../ViewField";
 import "./styles/index.scss";
-class Select extends Component {
+class SelectProps extends React.Component {
 
   render() {
     const { width,
@@ -19,14 +19,6 @@ class Select extends Component {
       mode = "editable",
       defaultValue,
       modeSelect } = this.props
-    const noteLabel = label => {
-      return (
-        <Label fontWeight={labelFontWeight}>
-          <span style={{ color: "red" }}>* </span>
-          {label}
-        </Label>
-      );
-    };
     const getFieldValueFromID = (id, array, field = "ten") => {
       if (id && !isEmpty(array)) {
         const item = array.find((item) => item.id === id);
@@ -40,9 +32,12 @@ class Select extends Component {
           ? (<Form.Item
             label={
               mandatory ? (
-                noteLabel(label)
+                <span style={{ fontWeight: labelFontWeight }}>
+                  <span style={{ color: "red" }}>* </span>
+                  {label}
+                </span>
               ) : labelFontWeight ? (
-                <Label fontWeight={labelFontWeight}>{label}</Label>
+                <span style={{ fontWeight: labelFontWeight }}>{label}</span>
               ) : label
             }
             className={styles.FormStyles}
@@ -81,4 +76,4 @@ class Select extends Component {
   }
 }
 
-export default Select;
+export default SelectProps;
