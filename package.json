@@ -1,6 +1,6 @@
 {
   "name": "cscore_component",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "cac component co ban cua du an",
   "main": "src/index",
   "scripts": {
@@ -9,6 +9,7 @@
   "author": "Hoang Minh Quan",
   "license": "MIT",
   "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
     "uglifyjs-webpack-plugin": "^2.2.0",
     "webpack": "^5.19.0",
     "webpack-cli": "^4.4.0"
